@@ -1,0 +1,17 @@
+@import './colors.css';
+@import './buttons.css';
+
+@tailwind base;
+
+@tailwind components;
+
+
+/* Custom classes
+
+*/
+
+@tailwind utilities;
+
+body {
+    background: var(--color);
+}
