@@ -1,3 +1,29 @@
-.button {
-    background: var(--color);
+.btn {
+    @apply text-black py-3 px-4 rounded-lg text-base border-none leading-snug;
+    
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+
+    &:focus {
+        @apply outline-none;
+    }
+
+    &:hover {
+        background-color: var(--grey04);
+    }
+
+    &.accent {
+        color: var(--blue01);
+    }
+
+    &.primary {
+        @apply text-white;
+
+        background-color: var(--blue01);
+
+        &:hover {
+            background-color: var(--blue02);
+        }
+    }
 }

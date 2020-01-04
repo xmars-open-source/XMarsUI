@@ -5,13 +5,8 @@
 
 @tailwind components;
 
+/* Custom styles */
 
-/* Custom classes
-
-*/
+/* -//- */
 
 @tailwind utilities;
-
-body {
-    background: var(--color);
-}
