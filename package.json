@@ -10,7 +10,7 @@
     "build:css": "postcss styles/index.css -o dist/xmars.css",
     "build:cjs": "MODULES=cjs babel components --out-dir cjs --extensions .ts --extensions .tsx",
     "build:esm": "MODULES=false babel components --out-dir esm --extensions .ts --extensions .tsx",
-    "test": "jest"
+    "test": "__TEST__=true jest"
   },
   "keywords": [],
   "author": "",

@@ -29,7 +29,7 @@ module.exports = {
   plugins: [
     'add-module-exports'
   ],
-  ignore: [
+  ignore: process.env.__TEST__ ? [] : [
     "**/*.tests.tsx"
   ]
 };
