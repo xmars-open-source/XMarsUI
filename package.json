@@ -5,6 +5,7 @@
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "scripts": {
+    "build": "node build.js",
     "build:web": "webpack",
     "build:css": "postcss styles/index.css -o dist/xmars.css",
     "build:cjs": "MODULES=cjs babel components --out-dir cjs --extensions .ts --extensions .tsx",

@@ -4,7 +4,7 @@ const rimraf = require('rimraf');
 const cherryPick = require('cherry-pick').default;
 
 const shell = (cmd) =>
-  execa(cmd, { stdio: ['pipe', 'pipe', 'inherit'], shell: true });
+  execa.sync(cmd, { stdio: ['pipe', 'pipe', 'inherit'], shell: true });
 
 console.log(chalk.rgb(255, 136, 0).bold('XMars UI'));
 console.log(chalk.rgb(255, 136, 0).bold('--------'));
@@ -18,20 +18,20 @@ rimraf.sync('cjs');
 console.log(chalk.yellow('rm esm'));
 rimraf.sync('esm');
 
-async function build() {
+function build() {
     console.log(chalk.yellow(':build sources'));
 
     console.log(chalk.yellow('build:web'));
-    await shell('npm run build:web');
+    shell('npm run build:web');
 
     console.log(chalk.yellow('build:cjs'));
-    await shell('npm run build:cjs');
+    shell('npm run build:cjs');
 
     console.log(chalk.yellow('build:esm'));
-    await shell('npm run build:esm');
+    shell('npm run build:esm');
 
     console.log(chalk.yellow('build:css'));
-    await shell('npm run build:css');
+    shell('npm run build:css');
 
     console.log(chalk.yellow('chery pick'));
     cherryPick({
@@ -41,10 +41,4 @@ async function build() {
     })
 }
 
-build()
-.then(() =>
-    console.log(chalk.yellow('DONE'))
-)
-.catch(e => console.log(e))
-
-
+build();
