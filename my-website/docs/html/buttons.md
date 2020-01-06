@@ -4,6 +4,8 @@ title: Buttons
 sidebar_label: Buttons
 ---
 
+import XMars from 'xmars-ui/dist/Button';
+
 Use XMars-UI custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.
 
 ## Examples
@@ -12,7 +14,9 @@ XMars-UI includes several predefined button styles, each serving its own semanti
     <button type="button" class="btn ml-1">Subscribe</button>
     <button type="button" class="btn accent ml-1">Subscribe</button>
     <button type="button" class="btn primary ml-1">Subscribe</button>
+    <XMars primary>Hey</XMars>
 </p>
+
 
 #### HTML
 

@@ -11,9 +11,11 @@
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.40",
     "@docusaurus/preset-classic": "^2.0.0-alpha.40",
+    "chalk": "^3.0.0",
     "classnames": "^2.2.6",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "xmars-ui": "0.0.3"
   },
   "browserslist": {
     "production": [

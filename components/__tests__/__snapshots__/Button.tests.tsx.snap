@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component Default render 1`] = `
+<button
+  className="btn"
+>
+  Button
+</button>
+`;
+
+exports[`Button component Primary render 1`] = `
+<button
+  className="btn primary"
+>
+  Button
+</button>
+`;
+
+exports[`Button component additionalClass render 1`] = `
+<button
+  className="btn foo bar"
+>
+  Button
+</button>
+`;

@@ -1,21 +1,24 @@
-import React, { ReactChildren, FunctionComponent } from 'react';
+import { omit } from 'underscore';
+import React, { FunctionComponent, ButtonHTMLAttributes } from 'react';
 import classnames from 'classnames';
 
-interface Props {
-    primary: boolean,
-    additionalClass: string,
-    children: ReactChildren
+interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
+    primary?: boolean,
+    additionalClass?: string,
 }
 
-const Button: FunctionComponent<Props> = ({primary, additionalClass, children}) => {
+const Button: FunctionComponent<Props> = (props) => {
+    const {primary, additionalClass, children} = props;
     const classNames = classnames(
         'btn',
-        primary,
+        {
+            primary
+        },
         additionalClass
     );
 
     return (
-        <button className={classNames}>
+        <button className={classNames} {...omit(props, ['additionalClass', 'primary'])}>
             {children}
         </button>
     );
