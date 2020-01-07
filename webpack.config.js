@@ -18,6 +18,8 @@ module.exports = {
     output: {
       filename: 'bundle.min.js',
       path: path.resolve(__dirname, 'dist'),
+      library: 'XMarsUI',
+      libraryTarget: 'umd',
     },
     externals: {
       react: {

@@ -1,5 +1,6 @@
-.dockerignore
+.github
 Dockerfile
+.dockerignore
 docker-compose.yml
 my-website
 build.js
