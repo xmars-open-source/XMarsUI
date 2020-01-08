@@ -17,6 +17,8 @@ console.log(chalk.yellow('rm cjs'));
 rimraf.sync('cjs');
 console.log(chalk.yellow('rm esm'));
 rimraf.sync('esm');
+console.log(chalk.yellow('rm types'));
+rimraf.sync('types');
 
 function build() {
     console.log(chalk.yellow(':build sources'));
@@ -37,7 +39,8 @@ function build() {
     cherryPick({
       inputDir: './components',
       cjsDir: 'cjs',
-      esmDir: 'esm'
+      esmDir: 'esm',
+      typesDir: 'types'
     })
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "xmars-ui",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "cjs/index.js",
   "module": "esm/index.js",
@@ -10,6 +10,7 @@
     "build:css": "postcss styles/index.css -o dist/xmars.css",
     "build:cjs": "MODULES=cjs babel components --out-dir cjs --extensions .ts --extensions .tsx",
     "build:esm": "MODULES=false babel components --out-dir esm --extensions .ts --extensions .tsx",
+    "build:types": "tsc --emitDeclarationOnly -p ./",
     "test": "__TEST__=true jest"
   },
   "keywords": [],

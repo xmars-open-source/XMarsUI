@@ -2,7 +2,7 @@ import { omit } from 'underscore';
 import React, { FunctionComponent, ButtonHTMLAttributes } from 'react';
 import classnames from 'classnames';
 
-interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
+export interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
     primary?: boolean,
     additionalClass?: string,
 }
