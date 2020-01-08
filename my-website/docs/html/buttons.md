@@ -4,7 +4,7 @@ title: Buttons
 sidebar_label: Buttons
 ---
 
-import XMars from 'xmars-ui/dist/Button';
+import Button from 'xmars-ui/Button';
 
 Use XMars-UI custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.
 
