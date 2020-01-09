@@ -7,7 +7,7 @@ module.exports = {
       rules: [
         {
           test: /\.tsx?$/,
-          use: 'ts-loader',
+          use: 'babel-loader',
           exclude: /node_modules/,
         },
       ],
@@ -20,6 +20,7 @@ module.exports = {
       path: path.resolve(__dirname, 'dist'),
       library: 'XMarsUI',
       libraryTarget: 'umd',
+      libraryExport: 'default'
     },
     externals: {
       react: {

@@ -14,7 +14,7 @@ XMars-UI includes several predefined button styles, each serving its own semanti
     <button type="button" class="btn ml-1">Subscribe</button>
     <button type="button" class="btn accent ml-1">Subscribe</button>
     <button type="button" class="btn primary ml-1">Subscribe</button>
-    <XMars primary>Hey</XMars>
+    <Button primary>Hey</Button>
 </p>
 
 

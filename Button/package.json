@@ -1,0 +1,7 @@
+{
+  "name": "xmars-ui/Button",
+  "private": true,
+  "main": "../cjs/Button.js",
+  "module": "../esm/Button.js",
+  "types": "../types/Button.d.ts"
+}
