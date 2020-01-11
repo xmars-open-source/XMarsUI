@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{137:function(e){e.exports=JSON.parse('{"permalink":"https://github.com/DmitryOlkhovoi/XMarsUI/my-website/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"previousPage":null,"nextPage":null}')}}]);
