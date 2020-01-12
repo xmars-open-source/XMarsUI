@@ -4,6 +4,8 @@ title: Container
 sidebar_label: Container
 ---
 
+A component for fixing an element's width to the current breakpoint.
+
 Table WIP
 
 ## Usage

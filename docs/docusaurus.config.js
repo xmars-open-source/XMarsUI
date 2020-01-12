@@ -1,11 +1,11 @@
 module.exports = {
   title: 'XMars UI',
-  tagline: 'A complete tool for you to make perfect UI',
-  url: 'https://github.com/DmitryOlkhovoi',
-  baseUrl: 'https://github.com/DmitryOlkhovoi/XMarsUI/my-website',
+  tagline: 'A complete tool for you to make a perfect UI',
+  url: 'https://xmars-open-source.github.io',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'DmitryOlkhovoi', // Usually your GitHub org/user name.
-  projectName: 'xmars-ui', // Usually your repo name.
+  organizationName: 'xmars-open-source', // Usually your GitHub org/user name.
+  projectName: 'xmars-ui-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'XMars UI',
@@ -70,7 +70,7 @@ module.exports = {
         //   ],
         // },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} XMars`,
+      copyright: `Copyright © ${new Date().getFullYear()} XMars.io`,
     },
     disableDarkMode: true,
   },
