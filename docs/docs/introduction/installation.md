@@ -4,14 +4,14 @@ title: Installation
 sidebar_label: Installation
 ---
 
-XMarsUI is mostly CSS tool and you can get most of it without JS.
-We are going to show you several ways to include XMarsUI into your project.
+XMars UI is mostly CSS tool and you can get most of it without JS.
+We are going to show you several ways to include XMars UI into your project.
 
 ## Quick Start
-Looking to quickly add XMarsUI to your project? Use [unpkg](https://unpkg.com/).
+Looking to quickly add XMars UI to your project? Use [unpkg](https://unpkg.com/).
 
 ### CSS
-[unpkg](https://unpkg.com/) is a fast, global content delivery network for everything on `npm`. You can get XMarsUI CSS using CDN:
+[unpkg](https://unpkg.com/) is a fast, global content delivery network for everything on `npm`. You can get XMars UI CSS using CDN:
 
 ```html
 <!-- Somewhere in <head> -->
@@ -60,7 +60,7 @@ import Button from 'xmars-ui/Button';
 ```
 
 ## Typescript
-XMarsUI supports `Typescript`, you don't need to install `@types/xmars-ui` to have proper typings.
+XMars UI supports `Typescript`, you don't need to install `@types/xmars-ui` to have proper typings.
 
 ## Browser support
 We aim to support all browsers supported by both React and Tailwindcss

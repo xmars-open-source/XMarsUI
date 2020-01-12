@@ -71,3 +71,7 @@ h6 {
 .navbar__logo {
   height: 75px !important;
 }
+
+* {
+  border-style: initial;
+}

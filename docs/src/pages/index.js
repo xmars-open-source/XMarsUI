@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        XMars was designed from the ground up to be easily installed and
+        XMars UI was designed from the ground up to be easily installed and
         used to get your website up and running quickly.
       </>
     ),
@@ -22,7 +22,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        XMars gives you power of the most popular utility-first CSS framework.
+        XMars UI gives you power of the most popular utility-first CSS framework.
       </>
     ),
   },
