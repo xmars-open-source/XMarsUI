@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://getbootstrap.com/">
-    <img src="https://ui.xmars.io/img/logo.png" alt="Bootstrap logo" width="130">
+    <img src="https://ui.xmars.io/img/logo.png" alt="Bootstrap logo" width="170">
   </a>
 </p>
 
