@@ -26,4 +26,8 @@
             background-color: var(--blue02);
         }
     }
+
+    &.circle {
+      @apply rounded-full;
+    }
 }

@@ -8,5 +8,8 @@ module.exports = {
             preserve: false
         }),
         require('autoprefixer'),
+        require('postcss-copy')({
+            dest: 'dist'
+        })
     ]
 }

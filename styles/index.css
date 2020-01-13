@@ -1,5 +1,6 @@
 @import './colors.css';
 @import './buttons.css';
+@import "../assets/icons/css/telegram.css";
 
 @tailwind base;
 
