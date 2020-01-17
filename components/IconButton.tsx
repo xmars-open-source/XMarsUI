@@ -1,11 +1,9 @@
 import React, { FunctionComponent, ButtonHTMLAttributes } from 'react';
-import Button from './Button';
+import Button, { ButtonProps } from './Button';
 import Icon from './Icon';
 
-export interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
+export interface Props extends ButtonProps, ButtonHTMLAttributes<HTMLButtonElement> {
     name: string,
-    primary?: boolean,
-    additionalClass?: string
 }
 
 const IconButton: FunctionComponent<Props> = (props) => {

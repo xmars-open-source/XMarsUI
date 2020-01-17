@@ -1,8 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Button component Circle render 1`] = `
+<button
+  circle={true}
+  className="btn circle"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
 exports[`Button component Default render 1`] = `
 <button
   className="btn"
+  onClick={[Function]}
 >
   Button
 </button>
@@ -11,6 +22,17 @@ exports[`Button component Default render 1`] = `
 exports[`Button component Primary render 1`] = `
 <button
   className="btn primary"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Button component Ripple render 1`] = `
+<button
+  className="btn with-ripple"
+  onClick={[Function]}
+  ripple={true}
 >
   Button
 </button>
@@ -19,6 +41,7 @@ exports[`Button component Primary render 1`] = `
 exports[`Button component additionalClass render 1`] = `
 <button
   className="btn foo bar"
+  onClick={[Function]}
 >
   Button
 </button>

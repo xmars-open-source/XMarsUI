@@ -1,14 +1,12 @@
 import React from 'react';
-import Button from '../Button';
+import IconButton from '../IconButton';
 import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
 
-describe('Button component', () => {
+describe('IconButton component', () => {
   test('Default render', () => {
     const component = renderer.create(
-      <Button>
-        Button
-      </Button>,
+      <IconButton name="more" />,
     );
   
     expect(component.toJSON()).toMatchSnapshot();
@@ -16,9 +14,7 @@ describe('Button component', () => {
 
   test('Primary render', () => {
     const component = renderer.create(
-      <Button primary>
-        Button
-      </Button>,
+      <IconButton primary name="more" />,
     );
   
     expect(component.toJSON()).toMatchSnapshot();
@@ -26,9 +22,7 @@ describe('Button component', () => {
 
   test('Circle render', () => {
     const component = renderer.create(
-      <Button circle>
-        Button
-      </Button>,
+      <IconButton circle name="more" />,
     );
   
     expect(component.toJSON()).toMatchSnapshot();
@@ -36,9 +30,7 @@ describe('Button component', () => {
 
   test('Ripple render', () => {
     const component = renderer.create(
-      <Button ripple>
-        Button
-      </Button>,
+      <IconButton ripple name="more" />,
     );
   
     expect(component.toJSON()).toMatchSnapshot();
@@ -46,9 +38,7 @@ describe('Button component', () => {
 
   test('additionalClass render', () => {
     const component = renderer.create(
-      <Button additionalClass="foo bar">
-        Button
-      </Button>,
+      <IconButton additionalClass="foo bar" name="more" />,
     );
   
     expect(component.toJSON()).toMatchSnapshot();
@@ -58,9 +48,7 @@ describe('Button component', () => {
     const onClick = jest.fn();
 
     const component = shallow(
-      <Button onClick={onClick}>
-        Button
-      </Button>,
+      <IconButton onClick={onClick} name="more" />,
     );
 
     component.simulate('click');

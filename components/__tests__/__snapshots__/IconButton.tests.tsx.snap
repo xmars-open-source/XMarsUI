@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconButton component Circle render 1`] = `
+<button
+  circle={true}
+  className="btn circle"
+  name="more"
+  onClick={[Function]}
+>
+  <i
+    circle={true}
+    className="icon-more undefined"
+  />
+</button>
+`;
+
+exports[`IconButton component Default render 1`] = `
+<button
+  className="btn"
+  name="more"
+  onClick={[Function]}
+>
+  <i
+    className="icon-more undefined"
+  />
+</button>
+`;
+
+exports[`IconButton component Primary render 1`] = `
+<button
+  className="btn primary"
+  name="more"
+  onClick={[Function]}
+>
+  <i
+    className="icon-more undefined"
+    primary={true}
+  />
+</button>
+`;
+
+exports[`IconButton component Ripple render 1`] = `
+<button
+  className="btn with-ripple"
+  name="more"
+  onClick={[Function]}
+  ripple={true}
+>
+  <i
+    className="icon-more undefined"
+    ripple={true}
+  />
+</button>
+`;
+
+exports[`IconButton component additionalClass render 1`] = `
+<button
+  className="btn foo bar"
+  name="more"
+  onClick={[Function]}
+>
+  <i
+    className="icon-more foo bar"
+  />
+</button>
+`;
