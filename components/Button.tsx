@@ -1,5 +1,5 @@
 import { omit } from 'underscore';
-import React, { FunctionComponent, ButtonHTMLAttributes, useState, useEffect } from 'react';
+import React, { FunctionComponent, ButtonHTMLAttributes, useState } from 'react';
 import uuid from 'uuid/v4';
 import classnames from 'classnames';
 

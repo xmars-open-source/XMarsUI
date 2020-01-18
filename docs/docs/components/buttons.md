@@ -13,9 +13,9 @@ Use XMars-UI custom button styles for actions in forms, dialogs, and more with s
 ## Examples
 XMars-UI includes several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control.
 <p>
-    <button type="button" class="btn ml-1">Subscribe</button>
-    <button type="button" class="btn accent ml-1">Subscribe</button>
-    <button type="button" class="btn primary ml-1">Subscribe</button>
+    <Button>Subscribe</Button>
+    <Button accent>Subscribe</Button>
+    <Button primary>Subscribe</Button>
 </p>
 
 #### HTML
