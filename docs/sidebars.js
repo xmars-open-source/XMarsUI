@@ -10,12 +10,14 @@ module.exports = {
     Introduction: [
       'introduction/getting-started',
       'introduction/installation',
-      'introduction/react'
+      // 'introduction/react'
     ],
-    "Components": ['components/buttons'],
+    "Components": [
+      'components/buttons',
+      'components/icons'
+    ],
     "Layout": [
-      'layout/container',
-      'layout/float'
+      'layout/container'
     ],
   },
 };

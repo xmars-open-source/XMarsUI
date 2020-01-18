@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   title: 'XMars UI',
   tagline: 'A complete tool for you to make a perfect UI',
@@ -89,4 +91,5 @@ module.exports = {
       },
     ],
   ],
+  plugins: [path.resolve(__dirname, './webpack.plugin.js')],
 };

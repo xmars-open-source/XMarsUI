@@ -5,14 +5,15 @@ import classnames from 'classnames';
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     primary?: boolean,
-    ripple?: boolean,
+    accent?: boolean,
     circle?: boolean,
+    ripple?: boolean,
     additionalClass?: string,
 }
 
 const Button: FunctionComponent<ButtonProps> = (props) => {
     const [rippleElements, setRippleElements] = useState<JSX.Element[]>([]);
-    const {primary, circle, ripple, additionalClass, children} = props;
+    const {primary, accent, circle, ripple, additionalClass, children} = props;
 
     const classNames = classnames(
         'btn',
@@ -24,6 +25,9 @@ const Button: FunctionComponent<ButtonProps> = (props) => {
         },
         {
             circle
+        },
+        {
+            accent
         },
         additionalClass
     );

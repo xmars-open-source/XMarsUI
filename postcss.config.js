@@ -8,6 +8,9 @@ module.exports = {
             preserve: false
         }),
         require('autoprefixer'),
+        require('cssnano')({
+            preset: 'default',
+        }),
         require('postcss-copy')({
             dest: 'dist'
         })
