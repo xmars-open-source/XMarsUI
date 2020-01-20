@@ -1,7 +1,12 @@
-![](https://github.com/DmitryOlkhovoi/XMarsUI/workflows/Build%20&%20Test/badge.svg)
-![](https://github.com/DmitryOlkhovoi/XMarsUI/workflows/Node.js%20Package/badge.svg)
-![](https://img.shields.io/npm/dw/xmars-ui)
-
+<p align="center">
+  <span>
+    
+   ![](https://github.com/DmitryOlkhovoi/XMarsUI/workflows/Build%20&%20Test/badge.svg)
+   ![](https://github.com/DmitryOlkhovoi/XMarsUI/workflows/Node.js%20Package/badge.svg)
+   ![](https://img.shields.io/npm/dw/xmars-ui)
+    
+  </span>
+</p>
 <p align="center">
   <a href="https://getbootstrap.com/">
     <img src="https://ui.xmars.io/img/logo.png" alt="Bootstrap logo" width="170">
