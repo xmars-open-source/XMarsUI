@@ -1,9 +1,7 @@
 .btn {
-    @apply text-black py-3 px-4 rounded-lg text-base border-none leading-snug;
-    
-    cursor: pointer;
-    display: inline-block;
-    text-decoration: none;
+    @apply text-black text-base leading-snug; 
+    @apply py-3 px-4 border-none rounded-lg;
+    @apply inline-block cursor-pointer no-underline;
 
     &:focus {
         @apply outline-none;
@@ -32,21 +30,22 @@
     }
 
     &.with-ripple {
-        position: relative;
         overflow: hidden;
-        
+        position: relative;
+
         @keyframes ripple {
             to {
+                @apply opacity-0;
                 transform: scale(2.5);
-                opacity: 0;
             }
         }
 
         .ripple {
+            position: absolute;
+
             z-index: 1;
             border-radius: 50%;
             background-color: var(--grey04);
-            position: absolute;
             transform: scale(0);
             animation: ripple 0.6s linear;
         }

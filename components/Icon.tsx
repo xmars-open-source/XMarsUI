@@ -10,7 +10,7 @@ const Icon: FunctionComponent<Props> = (props) => {
     const {name, additionalClass} = props;
 
     return (
-       <i className={`icon-${name} ${additionalClass}`} {...omit(props, ['additionalClass', 'name'])}></i>
+       <i className={`icon-${name} ${additionalClass}`} {...props}></i>
     );
 }
 

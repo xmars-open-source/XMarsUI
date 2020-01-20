@@ -1,4 +1,3 @@
-import { omit } from 'underscore';
 import React, { FunctionComponent, ButtonHTMLAttributes, useState } from 'react';
 import uuid from 'uuid/v4';
 import classnames from 'classnames';
@@ -40,7 +39,7 @@ const Button: FunctionComponent<ButtonProps> = (props) => {
         var rect = event.currentTarget.getBoundingClientRect();
 
         const d = Math.max(event.currentTarget.clientWidth, event.currentTarget.clientHeight);
-        const left = event.clientX - rect.left -d/2 + 'px';
+        const left = event.clientX - rect.left - d/2 + 'px';
         const top = event.clientY - rect.top - d/2 + 'px';
         const rippleElement = newRippleElement(d, left, top);
 
@@ -68,7 +67,7 @@ const Button: FunctionComponent<ButtonProps> = (props) => {
     return (
         <button
             className={classNames}
-            {...omit(props, ['additionalClass', 'primary'])}
+            {...props}
             onClick={(event) => {
                 if (props.onClick) {
                     props.onClick(event);
